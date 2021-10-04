@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338.068" height="228.023" viewBox="0 0 338.068 228.023">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2ccb5"/>
+      <stop offset="1" stop-color="#809582"/>
+      <stop offset="1" stop-color="#b2ccb5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_24" data-name="Group 24" transform="translate(-452.897 -145.664)">
+    <g id="Column_Chart0" data-name="Column Chart0" transform="translate(521.984 1462.353)">
+      <g id="X_Axis" data-name="X Axis" transform="translate(-69.087 -1107.666)">
+        <text id="Jan" transform="translate(14 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-13.576" y="0">Jan</tspan></text>
+        <text id="Feb" transform="translate(52.142 14.458)" fill="#444" font-size="16" font-family="SF Pro"><tspan x="-13.594" y="0">Feb</tspan></text>
+        <text id="Mar" transform="translate(91.368 14)" fill="#444" font-size="16" font-family="SF Pro"><tspan x="-13.984" y="0">Mar</tspan></text>
+        <text id="Apr" transform="translate(130.594 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-13.505" y="0">Apr</tspan></text>
+        <text id="May" transform="translate(168.215 14)" fill="#444" font-size="16" font-family="SF Pro"><tspan x="-15.125" y="0">May</tspan></text>
+        <text id="Jun" transform="translate(207.42 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-13.846" y="0">Jun</tspan></text>
+        <text id="Jul" transform="translate(245.856 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-11.036" y="0">Jul</tspan></text>
+        <text id="Aug" transform="translate(284.355 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-15.012" y="0">Aug</tspan></text>
+        <text id="Sep" transform="translate(323.068 15)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="-14.813" y="0">Sep</tspan></text>
+      </g>
+      <g id="Chart" transform="translate(-62.032 -1339)">
+        <g id="m1">
+          <rect id="Rectangle_61" data-name="Rectangle 61" width="16.686" height="54.698" transform="translate(0 168.171)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_62" data-name="Rectangle 62" width="16.686" height="145.86" transform="translate(33.372 77.008)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_63" data-name="Rectangle 63" width="16.686" height="127.628" transform="translate(76.334 95.241)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_64" data-name="Rectangle 64" width="16.686" height="54.698" transform="translate(114.501 168.171)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_65" data-name="Rectangle 65" width="16.686" height="120.335" transform="translate(152.668 102.534)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_66" data-name="Rectangle 66" width="16.686" height="200.558" transform="translate(190.835 22.311)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_67" data-name="Rectangle 67" width="16.686" height="109.395" transform="translate(229.002 113.473)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_68" data-name="Rectangle 68" width="16.686" height="164.093" transform="translate(267.169 58.776)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_69" data-name="Rectangle 69" width="16.686" height="145.86" transform="translate(305.336 77.008)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <line id="Line_3" data-name="Line 3" x2="328" transform="translate(458.5 189.5)" fill="none" stroke="#b0bfc7" stroke-width="2"/>
+    <text id="Budget_500" data-name="Budget $500" transform="translate(459 164)" fill="#444" font-size="17" font-family="SF Pro"><tspan x="0" y="16">Budget $500</tspan></text>
+  </g>
+</svg>

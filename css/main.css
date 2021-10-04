@@ -1,0 +1,339 @@
+body {
+	height: 100vh;
+}
+
+
+main {
+	display: grid;
+	grid-template-columns: .5fr 3fr 7fr 3fr;
+	grid-template-rows: 1fr 2fr 2fr 4fr;
+	grid-gap: 1rem;
+ 	box-sizing: border-box;
+	height: 100%;
+	padding: 1rem;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  background-color: #7d7d7d;
+
+}
+
+section {
+	background-color: #E6E6E6;
+	border-radius: 16px;
+	box-shadow: 2px 2px 5px 5px #757575;
+}
+
+h1 {
+	background-color: #B2CCB5;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 0;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+input {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.nav {
+	grid-column: 1;
+	grid-row: 1/ span 6;
+  background-color: #B2CCB5;
+	display: grid;
+	grid-template-rows:  1fr 1fr;
+}
+
+.nav i {
+	color: white;
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+.options {
+	grid-row: 1;
+	text-align: center;
+}
+
+.settings {
+	grid-row: 2;
+	text-align: center;
+	align-self: end;
+}
+
+.music {
+	grid-column: 2;
+  grid-row: 1;
+  background-color: #B2CCB5;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	padding: .5rem;
+}
+
+.content img {
+	grid-column: 1;
+	width: auto;
+}
+
+.content .play {
+	grid-column: 2;
+	color: white;
+	align-self: center;
+}
+
+.content i {
+	padding-right: .5rem;
+	padding-left: .5rem;
+}
+
+.content .fa-step-backward {
+	padding-left: 0;
+}
+
+.content p {
+	grid-column: 2;
+	margin: 0;
+	color: white;
+}
+
+.content h2 {
+	grid-column: 2;
+	margin: 0;
+	color: white;
+	font-size: 1rem;
+}
+
+.todo {
+	grid-column: 2;
+	grid-row: 2/ span 5;
+}
+
+.todo h1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.todo i {
+	text-align: right;
+}
+
+.todo ul {
+	list-style: none;
+	 margin: 10px 20px;
+	 padding: 0;
+}
+
+.todo li {
+  border-bottom: 1px solid #BEBCBC;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #6F7070;
+}
+
+.todo span {
+	text-align: right;
+}
+
+.spending {
+	grid-colum: 3;
+	grid-row: 1/ span 6;
+}
+
+.separate {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding: 1rem;
+	grid-gap: 1rem;
+	text-align: center;
+}
+
+.separate h4 {
+	color: #6F7070;
+	font-size: 1.4rem;
+	margin: 10px;
+}
+
+.bills img, .food img, .misc img {
+	height: 13em;
+}
+
+.separate .bills {
+	grid-column: 1;
+	grid-row: 1;
+	align-content: center;
+}
+
+.separate .food {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.separate .misc {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.spending .bar {
+	align-content: center;
+	grid-row: 2;
+	grid-column: 1/ span 3;
+}
+
+.bar img {
+	height: 15em;
+	padding: 2rem;
+}
+
+.calendar {
+  grid-column: 4;
+  grid-row: 1/ span 2;
+}
+
+.calendar img {
+	border-radius: 16px;
+	max-width: 23em;
+}
+
+.events {
+	grid-column: 4;
+	grid-row: 3/ span 4;
+}
+
+.events h1 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.events h1 span {
+	text-align: right;
+}
+
+.events ul {
+	list-style: none;
+	 margin: 10px 20px;
+	 padding: 0;
+}
+
+.events h3 {
+	border-bottom: 1px solid #BEBCBC;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: #6F7070;
+	font-size: 1rem;
+	margin-bottom: 5px;
+}
+
+.events p {
+	color: #AAAAAA;
+	margin-top: 1px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.events li .sub {
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.events li .time {
+	grid-row: 2;
+	grid-column: 2;
+	text-align: right;
+}
+
+@media screen and (max-width: 40em) {
+
+body {
+	height: auto;
+}
+
+main {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: repeat(6, auto);
+ height: 100%;
+}
+
+.nav {
+	grid-column: 1;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.fa-spotify, .fa-dollar-sign, .fa-list, .fa-calendar-alt {
+	display: none;
+}
+
+.settings {
+	display: none;
+}
+
+.music {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.todo {
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.spending {
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.separate {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+}
+
+.separate .bills {
+	grid-column: 1;
+	grid-row: 1;
+	align-content: center;
+}
+
+.separate .food {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.separate .misc {
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.spending .bar {
+	align-content: center;
+	grid-column: 1;
+	grid-row: 4;
+}
+
+.calendar {
+	grid-column: 1;
+	grid-row: 5;
+	
+}
+
+.calendar img {
+	width: 100%;
+	max-width: none;
+}
+
+.events {
+	grid-column: 1;
+	grid-row: 6;
+}
+}
+
